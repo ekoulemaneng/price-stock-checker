@@ -1,0 +1,90 @@
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: .75rem auto .75rem 1rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: monospace;
+    margin: .75rem auto .25rem 1rem;
+}
+
+hr {
+    border-width: 1.25px;
+    margin-bottom: .75rem;
+}
+
+main {
+    margin: 3rem auto;
+    width: 600px;
+    max-width: 90%;
+}
+
+form {
+    margin: 1rem auto;
+    padding: 3rem;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family:cursive;
+    text-align: center;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.15rem
+}
+
+label {
+    text-align:left;
+    margin-left: 1.75rem;
+}
+
+label[for='open'] {
+    display: inline;
+}
+
+input, textarea {
+    border: 1.5px solid;
+    border-radius: 3px;
+    width: 90%;
+    height: 2rem;
+    padding-left: .25rem;
+    box-sizing: border-box;
+}
+
+input[type='checkbox'] {
+    display: inline;
+    width: 1rem;
+    height: 1rem;
+    margin-left: .5rem;
+    vertical-align: middle;
+}
+
+
+textarea {
+    height: 8rem;
+}
+
+button {
+    width: 35%;
+    height: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border: 3px solid gray;
+}
+
+button:hover {
+    color: gray;
+    background-color: white;
+}

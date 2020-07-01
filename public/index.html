@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ekoulé Maneng Charly Karl">
+        <meta name="description" content="A Stock Price Checker Microservice">
+        <title>Stock Price Checker Microservice</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Stocker</h1>
+        <p>a stock price checker microservice</p>
+        <hr>
+        <main>
+            <form action="/api/stock-prices" method="GET">
+                <h2>Get single price and total likes</h2>
+                <input type="text" name="stock" placeholder="stock symbol *" required>
+                <label for="like">Like ?<input type="checkbox" name="like" value="true" id="like"></label>
+                <button type="submit">Get price</button>
+            </form>
+            <hr>
+            <form action="/api/stock-prices" method="GET">
+                <h2>Compare and get relative likes</h2>
+                <input type="text" name="stock" placeholder="first stock symbol *" required>
+                <input type="text" name="stock" placeholder="second stock symbol *" required>
+                <label for="like">Like both ?<input type="checkbox" name="like" value="true" id="like"></label>
+                <button type="submit">Get prices</button>
+            </form>
+        </main>
+    </body>
+</html>
